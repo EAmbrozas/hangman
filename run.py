@@ -67,4 +67,7 @@ MAX_WRONG = len(HANGMAN) - 1
 # Pick a word
 word = random.choice(WORDS)
 
+# Dashes for each letter in a word
+current_guess = "-" * len(word)
 print(word)
+print(current_guess)
