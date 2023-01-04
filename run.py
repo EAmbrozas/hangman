@@ -69,5 +69,9 @@ word = random.choice(WORDS)
 
 # Dashes for each letter in a word
 current_guess = "-" * len(word)
-print(word)
-print(current_guess)
+
+# Wrong guess counter
+wrong_guess = 0
+
+# Used letters tracker
+used_letters = []
