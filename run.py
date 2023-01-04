@@ -58,4 +58,13 @@ HANGMAN = ["""
 ========="""]
 
 # List of words that will be generated randomly by a computer
-WORDS = ["BEER", "PIZZA", "MOON", "WORLD", "MONKEY", "SNAKE", "APPLE"]
+WORDS = ["BEER", "PIZZA", "MOON", "WORLD", "MONKEY", "SNAKE", "APPLE", "RIVER", "SAND", "SHIP", "MOTORBIKE", "AIRPLANE"]
+
+MAX_WRONG = len(HANGMAN) - 1
+
+# Initialize variables
+
+# Pick a word
+word = random.choice(WORDS)
+
+print(word)
